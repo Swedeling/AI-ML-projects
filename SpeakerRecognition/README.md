@@ -27,13 +27,13 @@ A sample result of the operation:
 ## [Feature extraction](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/feature_extraction.ipynb)
 The selection of the appropriate characteristics has a key impact on the classification score. As mentioned earlier, there are many methods for parameterizing speech. A literature review has shown that the best results are achieved with the use of Mel Scale Cepstral Frequency Coefficients (MFCC), which is why they were used in the project. In addition, additional parameters were selected for the model to be more efficient. The Python Librosa package was used to calculate the parameters. It is a package designed to analyze music and audio recordings. It helps to visualize signals and carry out calculations of parameters that enable the characteristics of the recording. 
 
-## [Classification](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/main.ipynb)
+## Classification
 I decided to compare two different classifiers: logistic regression and MLP neural network. The purpose of this procedure was to check the advantages and disadvantages of these decision-making instruments, which differ mainly in the nature, assumptions and amount of information provided. This will allow you to assess which of them will work better in the created system.
 
-### Logistic Regression
+### [Logistic Regression](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/LR.ipynb)
 Classification using this method was made possible by the machine learning library for Python Scikit-learn. For the purposes of the project, the above-mentioned collection of 476 recordings belonging to 34 people was selected from the database. The data was divided into a training set (80% - 381 recordings) and a test set (20% - 95 recordings)
 
-### Neural Network
+### [Neural Network](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/NN.ipynb)
 A neural network was also designed to be used as a classifier. The Keras library was used during the implementation. It is an open source library dedicated to building neural networks for deep learning. It uses Google's TensorFlow as a backend. The learning parameters and the network structure were selected on the basis of the results observation, using the "trial and error" method. When they were satisfactory, the design process was completed. The network consists of two types of layers: dense (Dense) and exclusions (Dropout) with different parameters. It was decided to use the "relu" activation function within the network due to the fact that it offers the best performance. On the output, however, the activation function "Softmax" was selected, which is best for solving classification problems.
 
 ## Results
