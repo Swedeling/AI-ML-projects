@@ -19,9 +19,9 @@ In this [section](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecogn
 
 A sample result of the operation:
 
-!["one" - raw signal ](../docks/silence1.png)
+!["one" - raw signal ](../docks/silence1.PNG)
 
-!["one" - after silence removing](../docks/silence2.png)
+!["one" - after silence removing](../docks/silence2.PNG)
 
 
 ## [Feature extraction](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/main.ipynb)
