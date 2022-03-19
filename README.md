@@ -9,6 +9,6 @@ This project is part of my engineering thesis "Automatic Identity Recognition Us
 
 [Mohd Hanifa, Rafizah, Khalid Isa, i Shamsul Mohamad. „A Review on Speaker Recognition: Technology and Challenges”. Computers & Electrical Engineering 90 (marzec 2021): 107005. https://doi.org/10.1016/j.compeleceng.2021.107005.]
 
-## [Classification of changes related to COVID-19 on X-rays]()
+## [Classification of changes related to COVID-19 on X-rays](https://github.com/Swedeling/Portfolio/blob/main/Covid-19%20classification/README.md)
 
 This project is an attempt to create a system for the automatic classification of  x-rays in the context of COVID-19. 
