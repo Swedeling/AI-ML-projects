@@ -8,14 +8,14 @@ This project is part of my engineering thesis "Automatic Identity Recognition Us
 The data used during the project implementation comes from the free [Common Voice](https://commonvoice.mozilla.org) database. It is an open source collection of recordings of the human voice in various languages. A database of single-word recordings in English was selected for this project. The words spoken are "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "yes", "no", "Hey", "Firefox". Such a selection of words is due to the fact that they are universal and most often used for user verification (for example with a PIN code), which is one of the applications of speaker recognition systems.
 The entire collection contained 16,285 short recordings of words spoken by various users. Therefore, I decided to standardize and limit them. In this [section](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/data_selection.ipynb) you can find my data selection process. 
 
-## [Silence Removing](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/main.ipynb)
+## [Silence Removing](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/feature_extraction.ipynb)
 Voice data can be divided into three segments: speech segment, silence segment, and background noise. Depending on the recording conditions, their ratio may be different. If you want to obtain high classification results, you should take care of the "purity" of the signal. In order to extract the voice parts, I decided to use an endpoint detection algorithm and unnecessary parts removing. For the purposes of this project, the algorithm described in "A New Silence Removal and Endpoint Detection Algorithm for Speech and Speaker Recognition Applications" was used [2]. 
 
 Its operation is presented in the diagram below.
 
 ![tekst alternatywny](../docks/schemat1.png)
 
-In this [section](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/main.ipynb) you can find my implementaion of it. 
+In this [section](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/feature_extraction.ipynb) you can find my implementaion of it. 
 
 A sample result of the operation:
 
@@ -24,7 +24,7 @@ A sample result of the operation:
 !["one" - after silence removing](../docks/silence2.PNG)
 
 
-## [Feature extraction](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/main.ipynb)
+## [Feature extraction](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/feature_extraction.ipynb)
 The selection of the appropriate characteristics has a key impact on the classification score. As mentioned earlier, there are many methods for parameterizing speech. A literature review has shown that the best results are achieved with the use of Mel Scale Cepstral Frequency Coefficients (MFCC), which is why they were used in the project. In addition, additional parameters were selected for the model to be more efficient. The Python Librosa package was used to calculate the parameters. It is a package designed to analyze music and audio recordings. It helps to visualize signals and carry out calculations of parameters that enable the characteristics of the recording. 
 
 ## [Classification](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/main.ipynb)
@@ -43,7 +43,7 @@ Both classifiers gave similar results, 98% (LR) and 96% (NN). Logistic regressio
 
 Although the solution is based on a small and specific set of data, the results achieved are satisfactory. The use of such a system is possible in reality. However, the proposed system can still be improved as the goal is to achieve an efficiency of 100%.
 
-The confusion matrix are shown below.
+The confusion matrices are shown below.
 
 Confusion matrix for logistic regression:
 ![LR matrix](../docks/matrix_NN.PNG)
@@ -53,13 +53,14 @@ Confusion matrix for Neural Network:
 ![NN matrix](../docks/matrix_regression.PNG)
 
 
-```python
-import numpy as np
-```
-
-
 ## Bibliography
 
 [1] Mohd Hanifa, Rafizah, Khalid Isa, i Shamsul Mohamad. „A Review on Speaker Recognition: Technology and Challenges”. Computers & Electrical Engineering 90 (marzec 2021): 107005. https://doi.org/10.1016/j.compeleceng.2021.107005.
 
 [2] Saha, Goutam & Chakroborty, S.S. & Senapati, Suman. (2005). A New Silence Removal and Endpoint Detection Algorithm for Speech and Speaker Recognition Applications.
+
+[3] Reynolds, Douglas A. „An overview of automatic speaker recognition technology”. W IEEE International Conference on Acoustics Speech and Signal Processing, IV-4072-IV–4075. Orlando, FL, USA: IEEE, 2002. https://doi.org/10.1109/ICASSP.2002.5745552.
+
+[4] Mohd Hanifa, Rafizah, Khalid Isa, i Shamsul Mohamad. „A Review on Speaker Recognition: Technology and Challenges”. Computers & Electrical Engineering 90 (marzec 2021): 107005. https://doi.org/10.1016/j.compeleceng.2021.107005.
+
+[5] Jahangir, Rashid, Ying Wah Teh, Henry Friday Nweke, Ghulam Mujtaba, Mohammed Ali Al-Garadi, i Ihsan Ali. „Speaker Identification through Artificial Intelligence Techniques: A Comprehensive Review and Research Challenges”. Expert Systems with Applications 171 (czerwiec 2021): 114591. https://doi.org/10.1016/j.eswa.2021.114591.

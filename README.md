@@ -7,3 +7,4 @@ This project is part of my engineering thesis "Automatic Identity Recognition Us
 
 ![SpeakerRecognitionProcess](/docks/SpeakerRecognitionProcess.PNG)
 
+[Mohd Hanifa, Rafizah, Khalid Isa, i Shamsul Mohamad. „A Review on Speaker Recognition: Technology and Challenges”. Computers & Electrical Engineering 90 (marzec 2021): 107005. https://doi.org/10.1016/j.compeleceng.2021.107005.]
