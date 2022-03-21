@@ -13,7 +13,7 @@ Voice data can be divided into three segments: speech segment, silence segment, 
 
 Its operation is presented in the diagram below.
 
-![tekst alternatywny](../docks/schemat1.png)
+![tekst alternatywny](../docks/algorithm.png)
 
 In this [section](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/feature_extraction.ipynb) you can find my implementaion of it. 
 
