@@ -31,7 +31,7 @@ For the purposes of this project, a smaller set was separated from the database 
 ## Methods
 The Colab environment was used during the implementation of the project. The project was made using the TensorFlow library. It is an open source machine learning library. The sklearn library was used to visualize the results. It made it possible to prepare a classification report and a matrix of errors.
 
-## Network architecture
+## [Network architecture](https://github.com/Swedeling/Portfolio/blob/main/Covid-19%20classification/COVID-19%20classification.ipynb)
 In accordance with the assumptions of the project, an attempt was made to implement the network for the classification of changes related to COVID-19 on X-ray images. A convolutional network consisting of a total of 14 layers (convolutional, MaxPooling and FCL) was created. For the purposes of the project, it was named GNet. The process of creating the network consisted in creating a core network and modifying the input parameters. The impact of changes on learning outcomes was checked. New layers were removed and added, and parameters such as filter size, pool_size, stride, padding, the number of filters and the activation function were modified. When the result was considered satisfactory, the design process was completed. A schematic diagram of the network architecture is shown below.
 
 ![GNet](/docks/architecture_covid.PNG)
