@@ -1,6 +1,6 @@
 # Speaker Recognition
 
-This project is part of my engineering thesis "Automatic Identity Recognition Using Speech Biometric". The main assumptions of the project include creating the most effective solution that will enable the identification of 34 speakers based on 14 recordings of individual words from each of them. The overall process was as shown in the diagram below [1]. 
+This project is part of my engineering thesis "Automatic Identity Recognition Using Speech Biometric". The main assumptions of the project include creating the most effective solution that will enable the identification of 34 speakers based on 14 recordings of individual words from each of them. 
 
 
 ## [Data Selection](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/data_selection.ipynb)
