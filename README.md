@@ -22,3 +22,8 @@ This project is an attempt to create a system for the automatic classification o
         <img src ="docks/covid_classification.PNG" width="400"/>
     </p>
 </div>
+
+
+## [Classification of changes related to Alzheimer's disease on MRI images](https://github.com/Swedeling/Portfolio/tree/main/Alzheimer's%20classification)
+
+The aim of the project is designing an accurate architecture for the classification of Alzheimers Disease severity on the basis of MRI images.
