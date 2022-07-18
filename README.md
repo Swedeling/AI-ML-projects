@@ -26,4 +26,10 @@ This project is an attempt to create a system for the automatic classification o
 
 ## [Classification of changes related to Alzheimer's disease on MRI images](https://github.com/Swedeling/Portfolio/tree/main/Alzheimer's%20classification)
 
-The aim of the project is designing an accurate architecture for the classification of Alzheimers Disease severity on the basis of MRI images.
+The aim of the project is designing an accurate architecture for the classification of Alzheimers Disease severity on the basis of MRI images. The Dataset was divided into four classes of images (Non Demented, Very Mild Demented, Mild Demented, Moderate Demented). Two methods were used: logistic regression (2 models) and convolutional networks (5 models). Finally, result were achieved at the level of 99%. 
+
+<div style="text-align:center">
+    <p float='left'>
+        <img src ="docks/MRI_images.PNG" width="300"/>
+    </p>
+</div>
