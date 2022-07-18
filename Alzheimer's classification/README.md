@@ -12,7 +12,7 @@ The goal of this project was to best match brain images to the appropriate Alzhe
 
 ## Methods
 
-I decided to create 5 different CNN models and study the effect of parameters on the results. In addition, I also tried another approach by checking how logistic regression would perform. All models can be viewed in detail in [the notebook]('Alzheimer's classification\Alzheimer's classification.ipynb'). 
+I decided to create 5 different CNN models and study the effect of parameters on the results. In addition, I also tried another approach by checking how logistic regression would perform. All models can be viewed in detail in [the notebook](https://github.com/Swedeling/Portfolio/blob/main/Alzheimer's%20classification/Alzheimer's%20classification.ipynb). 
 
 ## Results
 Detailed results can be found in the notebook (precision, recall, F1-score, confusion matrix). Below only a short summary of accuracy for each method: 
