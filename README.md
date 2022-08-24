@@ -1,5 +1,5 @@
 # AI/ML Projects
-In this repo you can see my ML projects.
+In this repo you can see my AI/ML projects.
 
 ## [Speaker Recognition](https://github.com/Swedeling/Portfolio/tree/main/SpeakerRecognition)
 
