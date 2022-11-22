@@ -13,15 +13,15 @@ Voice data can be divided into three segments: speech segment, silence segment, 
 
 Its operation is presented in the diagram below.
 
-![tekst alternatywny](../docks/algorithm.png)
+![tekst alternatywny](../docks/SpeakerRecognition/algorithm.png)
 
 In this [section](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/feature_extraction.ipynb) you can find my implementaion of it. 
 
 A sample result of the operation:
 
-!["one" - raw signal ](../docks/silence1.PNG)
+!["one" - raw signal ](../docks/SpeakerRecognition/silence1.PNG)
 
-!["one" - after silence removing](../docks/silence2.PNG)
+!["one" - after silence removing](../docks/SpeakerRecognition/silence2.PNG)
 
 
 ## [Feature extraction](https://github.com/Swedeling/Portfolio/blob/main/SpeakerRecognition/feature_extraction.ipynb)
@@ -46,11 +46,11 @@ Although the solution is based on a small and specific set of data, the results 
 The confusion matrices are shown below.
 
 Confusion matrix for logistic regression:
-![LR matrix](../docks/matrix_NN.PNG)
+![LR matrix](../docks/SpeakerRecognition/matrix_NN.PNG)
 
 
 Confusion matrix for Neural Network:
-![NN matrix](../docks/matrix_regression.PNG)
+![NN matrix](../docks/SpeakerRecognition/matrix_regression.PNG)
 
 
 ## Bibliography

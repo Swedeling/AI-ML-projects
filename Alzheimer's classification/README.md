@@ -23,8 +23,8 @@ The goal of this project was to best match brain images to the appropriate Alzhe
 
 <div style="text-align:center">
     <p float='left'>
-        <img src ="../docks/MRI_images.PNG" width="300"/>
-        <img src ="../docks/MRI_dataset.PNG" width="500"/>
+        <img src ="../docks/Alzheimer's%20classification/MRI_images.PNG" width="300"/>
+        <img src ="../docks/Alzheimer's%20classification/MRI_dataset.PNG" width="500"/>
     </p>
 </div>
 

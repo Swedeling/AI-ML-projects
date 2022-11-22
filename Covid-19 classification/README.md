@@ -11,8 +11,8 @@ The images below present normal image of the lungs (left) and with changes due t
 
 <div style="text-align:center">
     <p float='left'>
-        <img src ="../docks/Normal.png" width="200"/>
-        <img src ="../docks/COVID.png" width="200"/>
+        <img src ="../docks/Covid-19%20classification/Normal.png" width="200"/>
+        <img src ="../docks/Covid-19%20classification/COVID.png" width="200"/>
     </p>
 </div>
 
@@ -34,7 +34,7 @@ The Colab environment was used during the implementation of the project. The pro
 ## [Network architecture](https://github.com/Swedeling/Portfolio/blob/main/Covid-19%20classification/COVID-19%20classification.ipynb)
 In accordance with the assumptions of the project, an attempt was made to implement the network for the classification of changes related to COVID-19 on X-ray images. A convolutional network consisting of a total of 14 layers (convolutional, MaxPooling and FCL) was created. For the purposes of the project, it was named GNet. The process of creating the network consisted in creating a core network and modifying the input parameters. The impact of changes on learning outcomes was checked. New layers were removed and added, and parameters such as filter size, pool_size, stride, padding, the number of filters and the activation function were modified. When the result was considered satisfactory, the design process was completed. A schematic diagram of the network architecture is shown below.
 
-![GNet](/docks/architecture_covid.PNG)
+![GNet](/docks/Covid-19%20classification/architecture_covid.PNG)
 
 ## Results
 High results of 90% were achieved. They are shown in the pictures below.
@@ -42,13 +42,13 @@ High results of 90% were achieved. They are shown in the pictures below.
 The first graph shows the value of the loss function and the accuracy for the training set.
 
 <div style="text-align:center">
-    <img src = "../docks/GNet_results.PNG"/>
+    <img src = "../docks/Covid-19%20classification/GNet_results.PNG"/>
 </div>
 
 Below you will find a summary of the values of the most popular validation metrics: *accuracy, precision, recall* and *F1-score*.
 
 <div style="text-align:center">
-    <img src = "../docks/GNet_results2.PNG"/>
+    <img src = "../docks/Covid-19%20classification/GNet_results2.PNG"/>
 </div>
 
 ## Conclusions and future explorations 

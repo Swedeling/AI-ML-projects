@@ -7,7 +7,7 @@ This project is part of my engineering thesis "Automatic Identity Recognition Us
 
 <div style="text-align:center">
     <p float='left'>
-        <img src ="docks/SpeakerRecognitionProcess.PNG" width="400"/>
+        <img src ="docks/SpeakerRecognition/SpeakerRecognitionProcess.PNG" width="400"/>
     </p>
 </div>
 
@@ -19,7 +19,7 @@ This project is an attempt to create a system for the automatic classification o
 
 <div style="text-align:center">
     <p float='left'>
-        <img src ="docks/covid_classification.PNG" width="400"/>
+        <img src ="docks/Covid-19 classification/covid_classification.PNG" width="400"/>
     </p>
 </div>
 
@@ -30,6 +30,6 @@ The aim of the project is designing an accurate architecture for the classificat
 
 <div style="text-align:center">
     <p float='left'>
-        <img src ="docks/MRI_images.PNG" width="300"/>
+        <img src ="docks/Alzheimer's classification/MRI_images.PNG" width="300"/>
     </p>
 </div>
